@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>Arrays no JavaScript</title>
+</head>
+<body>
+    <script language="JavaScript">
+        
+        //vetor sem tamanho definido
+        var vetor1 = new Array();
+
+        //vetor com tamanho definido
+        var vetor2=new Array(3);
+        
+        //vetor com posições e valores definidos
+        var vetor3=new Array("maça","banana","morango");
+        
+        //vetor – declaração abreviada
+        var vetor4 = ["limão", "pera", "uva", "kiwi"];
+       
+    </script>
+
+<h1> Mostra o alert do valor de um vetor:</h1>
+
+<script language="JavaScript">
+    var frutas = new Array();
+    frutas[0]="maça";
+    frutas[1]="banana";
+    frutas[2]="morango";
+    alert(frutas[2]);
+   </script>
+
+<h1>Agora vai mostrar no body do document:</h1>
+
+<script language="JavaScript">
+    var frutas = new Array();
+    frutas[0]="maça";
+    frutas[1]="acerola";
+    frutas[2]="abacate";
+    document.write(frutas[0] +"<br />");
+    document.write(frutas[1] +"<br />");
+    document.write(frutas[2] +"<br />");
+    </script>
+
+<h1> Agora mostra as frutas na base do FOR</h1>
+
+<script language="JavaScript">
+    var i;
+    var frutas = new Array();
+    frutas[0]="ACEROLA";
+    frutas[1]="MANGA";
+    frutas[2]="PITANGA";
+    for (i=0;i<=2;i++)
+    {
+     document.write(frutas[i] + "<br />");
+    }
+    </script>
+
+</body>
+</html>
