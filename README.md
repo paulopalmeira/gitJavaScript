@@ -11,3 +11,6 @@
             - JavaScript é Case-Sensitive;
 
             - Vamos ver uns Arrays.html;
+
+11/11/2022 - JQuery;
+
